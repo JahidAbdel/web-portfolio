@@ -1,0 +1,39 @@
+{
+  "description": "Personal portfolio template.",
+  "name": "Your Name",
+  "initials": "YN",
+  "role": "Your degree or job title",
+  "intro": "One short sentence to introduce yourself.",
+  "welcome": "Briefly describe what visitors can find on this page.",
+  "about": [
+    "Describe your background in one or two sentences.",
+    "Add a few subjects or areas that interest you."
+  ],
+  "projects": [
+    {
+      "type": "Project type",
+      "name": "Project name",
+      "description": "Briefly describe what you made.",
+      "technologies": ["Technology", "Technology"]
+    },
+    {
+      "type": "Project type",
+      "name": "Project name",
+      "description": "Briefly describe what you made.",
+      "technologies": ["Technology"]
+    }
+  ],
+  "otherProjects": {
+    "label": "More projects:",
+    "text": "Link to your profile",
+    "url": "https://github.com/"
+  },
+  "skillsIntro": "Briefly introduce the skills listed below.",
+  "skills": ["Skill", "Skill", "Skill"],
+  "contactIntro": "Add a short message and your preferred ways to get in touch.",
+  "contact": {
+    "github": "https://github.com/",
+    "linkedin": "https://www.linkedin.com/",
+    "email": "your.email@example.com"
+  }
+}

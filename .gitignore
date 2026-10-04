@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+photos/*
+!photos/portfolio-preview-home.png
+!photos/portfolio-preview-projects.png
+!photos/portfolio-preview-contact.png

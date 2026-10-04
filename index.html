@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta id="page-description" name="description" content="Personal portfolio template.">
+    <meta name="theme-color" content="#f5f5f0">
+    <title>Your Name — Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <span class="wordmark" id="site-wordmark" aria-label="Your Name"><span id="site-initials">YN</span><span>.</span></span>
+      <nav id="navigation" class="navigation" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="content">
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-role">Your degree or job title</p>
+          <h1 id="hero-name">Your name</h1>
+          <p class="hero-intro" id="hero-intro">One short sentence to introduce yourself.</p>
+        </div>
+        <div class="hero-note">
+          <p>Welcome to my portfolio.</p>
+          <p id="hero-welcome">Briefly describe what visitors can find on this page.</p>
+        </div>
+      </section>
+
+      <section class="about section-wrap section-pad" id="about">
+        <div class="section-heading"><p class="eyebrow">01 — About</p><span class="heading-rule"></span></div>
+        <div class="about-grid">
+          <h2>About</h2>
+          <div class="about-copy">
+            <p id="about-first">Describe your background in one or two sentences.</p>
+            <p id="about-second">Add a few subjects or areas that interest you.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-wrap section-pad" id="projects">
+        <div class="section-heading"><p class="eyebrow">02 — Selected projects</p><span class="heading-rule"></span></div>
+        <div class="projects-title"><h2>Projects</h2><p>Academic work and personal projects.</p></div>
+        <div class="project-list" id="project-list"></div>
+        <p class="other-projects"><span id="projects-link-label">More projects:</span> <a id="other-projects-link" href="https://github.com/" target="_blank" rel="noreferrer">Link to your profile ↗</a></p>
+      </section>
+
+      <section class="skills section-wrap section-pad" id="skills">
+        <div class="section-heading"><p class="eyebrow">03 — Skills</p><span class="heading-rule"></span></div>
+        <div class="skills-grid"><h2>Skills</h2><div class="skill-content"><p id="skills-intro">Briefly introduce the skills listed below.</p><div class="skill-list" id="skill-list"></div></div></div>
+      </section>
+
+      <section class="contact section-wrap section-pad" id="contact">
+        <div class="section-heading"><p class="eyebrow">04 — Contact</p><span class="heading-rule"></span></div>
+        <div class="contact-grid"><div><h2>Contact</h2><p id="contact-intro">Add a short message and your preferred ways to get in touch.</p></div><div class="contact-links">
+          <a data-contact="github" href="https://github.com/" target="_blank" rel="noreferrer"><span>GitHub</span><span data-contact-value>Link to your profile</span> ↗</a>
+          <a data-contact="linkedin" href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><span>LinkedIn</span><span data-contact-value>Link to your profile</span> ↗</a>
+          <a data-contact="email" href="mailto:your.email@example.com"><span>Email</span><span data-contact-value>your.email@example.com</span> ↗</a>
+        </div></div>
+      </section>
+      <p id="load-error" class="load-error" role="alert" hidden>Could not load portfolio.json. Start a local web server and reload this page.</p>
+    </main>
+
+    <footer class="site-footer section-wrap"><span class="wordmark" id="footer-name">Your name</span><p>Portfolio · <span id="year">2026</span></p><a href="#home">Back to top ↑</a></footer>
+  </body>
+</html>
